@@ -1,0 +1,14 @@
+{
+  "name": "mabrig-swarmlab-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser-based 20–50 specialist-agent orchestration simulation",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check assets/app.js && node --check assets/handoff.js && node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
